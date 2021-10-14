@@ -1,2 +1,2 @@
-from .request import get_all_locations
-from .request import get_single_location
+from animals.request import delete_animal
+from .request import get_all_locations, get_single_location, create_location, delete_location
