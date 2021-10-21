@@ -1,6 +1,7 @@
 #from ch. 7
 
 class Location():
-    def __init__(self, id, name):
+    def __init__(self, id, name, address):
         self.id = id
         self.name = name
+        self.address = address
